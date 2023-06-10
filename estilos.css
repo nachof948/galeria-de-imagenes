@@ -35,6 +35,7 @@ p{
     width: 100%;
     flex-wrap: wrap;
     gap: 4rem;
+    margin-bottom: 1rem;
 
 }
 .imagen{
@@ -47,6 +48,8 @@ p{
     width: fit-content;
     padding: 1.5rem;
     border-radius: 10px;
+    width: 7rem;
+    height: 11rem;
     cursor: pointer;
     transition: all 250ms;
 }
@@ -68,6 +71,12 @@ p{
     color: white;
 }
 
+/* MEDIA - QUERY CELULAR */
+@media (max-width:448px) {
+    .imagenes{
+        justify-content: center;
+    }
+}
 /* CAMBIAR COLOR DEL BODY */
 /* The switch - the box around the slider */
 .switch {
