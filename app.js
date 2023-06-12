@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     var imagenes = [
-    {img: '/Img/01 (V).jpg'},
+    {img: 'Img/01 (V).jpg'},
     {img: '/Img/02 (H).jpg'},
     {img: '/Img/03 (H).jpg'},
     {img: '/Img/04 (H).jpg'},
@@ -68,10 +68,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     contenedor.addEventListener('click', function(event) {
-        let atras = contenedor.querySelector('.atras'),
-            adelante = contenedor.querySelector('.adelante'),
-            img = contenedor.querySelector('img'),
-            tgt = event.target
+        let atras = contenedor.querySelector('.atras')
+        let adelante = contenedor.querySelector('.adelante')
+        let img = contenedor.querySelector('img')
+        let tgt = event.target
         if (tgt == atras) {
             if (contador > 0) {
                 img.src = imagenes[contador - 1].img
