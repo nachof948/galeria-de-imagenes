@@ -112,13 +112,13 @@ p{
 }
 .flechas .atras{
     position: absolute;
-    left: -35%;
+    left: -42%;
     top: 50%;
     width: 90%;
 }
 .flechas .adelante{
     position: absolute;
-    right: -35%;
+    right: -42%;
     top: 50%;
     width: 90%;
 }
