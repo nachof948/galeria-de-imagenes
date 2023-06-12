@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-    var imagenes = [
-    {img: 'Img/01 (V).jpg'},
+    let imagenes = [
+    {img: '/Img/01 (V).jpg'},
     {img: '/Img/02 (H).jpg'},
     {img: '/Img/03 (H).jpg'},
     {img: '/Img/04 (H).jpg'},
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     {img: '/Img/53 (V).jpg'},
     {img: '/Img/54 (H).jpg'},
     {img: '/Img/55 (V).jpg'},
-    {img: '/Img/56 (H).jpg'},
+    {img: '/Img/56 (H).jpg'}
     ];
 
     let contador = 0
