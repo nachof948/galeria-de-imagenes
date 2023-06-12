@@ -1,6 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-
-    let imagenes = [
+let imagenes = [
     {img: '/Img/01 (V).jpg'},
     {img: '/Img/02 (H).jpg'},
     {img: '/Img/03 (H).jpg'},
@@ -58,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     {img: '/Img/55 (V).jpg'},
     {img: '/Img/56 (H).jpg'}
     ];
-
+document.addEventListener('DOMContentLoaded', function() {
     let contador = 0
     const contenedor = document.querySelector('.slideshow');
     const overlay = document.querySelector('.overlay');
