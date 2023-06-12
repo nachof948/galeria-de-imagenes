@@ -1,5 +1,5 @@
 let imagenes = [
-    {img: '/Img/01 (V).jpg'},
+    {img: 'https://github.com/nachof948/galeria-de-imagenes/blob/main/Img/01%20(V).jpg'},
     {img: '/Img/02 (H).jpg'},
     {img: '/Img/03 (H).jpg'},
     {img: '/Img/04 (H).jpg'},
