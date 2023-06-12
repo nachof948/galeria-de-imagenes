@@ -110,10 +110,16 @@ p{
     align-items: center;
     position: relative;
 }
-.slideshow .flechas{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.flechas .atras{
+    position: absolute;
+    left: -35%;
+    top: 50%;
+    width: 90%;
+}
+.flechas .adelante{
+    position: absolute;
+    right: -35%;
+    top: 50%;
     width: 90%;
 }
 .flechas button{
